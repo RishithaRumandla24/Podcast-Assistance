@@ -23,9 +23,7 @@ Database	Supabase (Postgres + RPC + Vector Search)
 Environment	python-dotenv for secure config management
 Sessions	Flask's built-in session handling with UUID
 📁 Project Overview
-bash
-Copy
-Edit
+
 podcast-assistant/
 ├── app.py                # Main Flask application logic
 ├── templates/
@@ -56,19 +54,16 @@ General Chat
 Not sure what you want? Just ask! The assistant can help brainstorm, plan, and polish content based on your ongoing conversation.
 
 🌐 API Endpoints
-/
-Renders the home page (index.html)
-
-/chat (POST)
-Accepts a JSON body with a message field.
 
 Processes the message, looks up relevant memories, runs the appropriate logic or AI tool, and returns a response.
 
 🧪 Sample API Use
+
 Request:
 {
   "message": "generate ideas: space exploration"
 }
+
 Response:
 {
   "response": "1. 'Beyond the Stars' – Dive into the future of space travel..."
